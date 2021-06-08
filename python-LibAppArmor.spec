@@ -3,13 +3,13 @@ Summary(pl.UTF-8):	Dowiązania do AppArmor dla Pythona 2
 Summary(pt_BR.UTF-8):	Módulos Python 2 para acessar os recursos do AppArmor
 Name:		python-LibAppArmor
 # NOTE: versions >= 3.0 support python3 only
-Version:	2.13.4
+Version:	2.13.6
 Release:	1
 Epoch:		1
 License:	LGPL v2.1
 Group:		Libraries
 Source0:	http://launchpad.net/apparmor/2.13/%{version}/+download/apparmor-%{version}.tar.gz
-# Source0-md5:	a50b793a3362551f07733be3df9c328f
+# Source0-md5:	377545626db2278ef5d1319b68611c84
 URL:		http://wiki.apparmor.net/
 BuildRequires:	autoconf >= 2.50
 BuildRequires:	automake >= 1.4
