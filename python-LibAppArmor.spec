@@ -22,6 +22,7 @@ BuildRequires:	python-devel
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.745
 BuildRequires:	swig-python
+Obsoletes:	python-apparmor < 1:2.9.2-2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
